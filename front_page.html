@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First page</title>
+    <link rel="stylesheet"type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            background-image: url(./image/pic1.jpg);
+            background-size: cover;
+            background-position:top;
+            font-family: sans-serif;
+            padding-top: 0px;
+            margin: 0px;
+        }
+        .Menu-Bar
+        {
+            background:darkslategray;
+            text-align: center;
+        }
+
+        .Menu-Bar ul
+        {
+          display:inline-flex;
+          list-style: none;
+          color:blue;
+        }
+        .Menu-Bar ul li
+        {
+            width: 200px;
+            padding: 25px;
+        }
+        .Menu-Bar ul li a
+        {
+            text-decoration: none;
+            color:white;
+        }
+
+        li{
+            font-size: 35px;
+        }
+
+        .active,.Menu-Bar ul li:hover
+        {
+            background:crimson;
+            border-radius:30px;
+            border-width: 19px;
+        }
+        .Menu-Bar .fa
+        {
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Menu-Bar">
+    <ul>
+        <li class="active"><a href="#" ><i class="fa fa-home" ></i> Home</a></li>
+        <li><a href="About.html" target="blank"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="members.html" target="blank"> <i class="fa fa-users"></i>Members</a></li>
+        <li><a href="Goals.html" target="blank"><i class="fa fa-clone"></i>Goals</a></li>
+        <li><a href="debite&credite.html" target="blank"> <i class="fas fa-edit"></i>Account</a></li>
+    </ul>
+    </div>
+    
+</body>
+</html>
