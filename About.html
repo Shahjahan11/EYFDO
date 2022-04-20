@@ -30,6 +30,7 @@
         padding: 25px;
         border-radius: 50%;
         color: orangered;
+        text-transform: capitalize !important;
       }
       .container {
         display: flex;
@@ -38,6 +39,15 @@
       }
       .cover {
         margin: 0;
+      }
+      p {
+        margin-bottom: 0;
+      }
+      @media screen and (max-width: 768px) {
+        .cover {
+          width: 325px;
+          height: 325px;
+        }
       }
     </style>
 </head>

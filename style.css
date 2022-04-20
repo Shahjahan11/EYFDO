@@ -98,3 +98,6 @@ nav ul li i:hover{
     padding-top: 0px;
     margin-top: 0px;
 }
+p {
+    margin-bottom: 0;
+}

@@ -23,7 +23,7 @@
         td,th
         {
             border: 1px solid black;
-            padding: 12px;
+            padding: 5px;
             color:greenyellow;
             font-weight:900;
             font-family:sans-serif;
@@ -34,7 +34,6 @@
         {
             border:5px solid currentColor; 
             border-collapse:collapse;
-            width: 100%;
             background-color:brown;
 
 
@@ -48,8 +47,9 @@
         caption
         {
             color:black;
-            font-size:300%;
+            font-size:35px;
             font-weight: 1000;
+            margin-bottom: 10px;
         }
         tr:hover{
             background-color:black;
@@ -76,6 +76,25 @@
         caption:hover
         {
             color:white;
+        }
+
+        @media screen and (max-width: 800px) {
+            td, th {
+                font-size: 10px;
+            }
+            p {
+                font-size: 45px;
+                margin-bottom: 0;
+            }
+            #border {
+                max-width: 650px;
+                width: unset;
+                height: unset;
+                padding: 20px;
+            }
+            #border h3 {
+                font-size: 20px !important;
+            }
         }
        
     </style>
