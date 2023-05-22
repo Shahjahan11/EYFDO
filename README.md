@@ -1,2 +1,2 @@
 Alhamdulillah...It's my first development Work.....
-Just tried to develop a Website using only HTML & CSS.....I know it's not massive,but i enjoyed to develop this during whole time .. this tiny website is abour our Organization..
+Just tried to develop a Website using only HTML & CSS.....I know it's not massive,but i enjoyed to develop this during whole time .. this tiny website is about our Organization..
